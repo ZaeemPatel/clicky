@@ -1,0 +1,156 @@
+/* Button Styles */
+.button_std {
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 50px;
+    background: #9d152d;
+    font-family: objektiv-mk1;
+    font-weight: 700;
+    font-display: swap
+}
+
+.button_std:active,
+.button_std:focus,
+.button_std:hover {
+    color: #fff !important;
+    text-decoration: none;
+    -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 2px 10px rgba(0, 0, 0, .5);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .5)
+}
+
+.button_white {
+    background-color: #fff!important;
+    color: #9d152d;
+    border: none!important
+}
+
+.button_white:active,
+.button_white:focus,
+.button_white:hover {
+    color: #9d152d!important
+}
+
+.button_black {
+    background-color: #000!important;
+    color: #fff!important;
+    -webkit-box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    box-shadow: none!important
+}
+
+.button_black:active,
+.button_black:focus,
+.button_black:hover {
+    background-color: #fff!important;
+    color: #000!important
+}
+
+.button_black_invert {
+    background: 0 0!important;
+    color: #000!important;
+    border: 1px solid #000!important;
+    -webkit-box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    box-shadow: none!important
+}
+
+.button_black_invert:active,
+.button_black_invert:focus,
+.button_black_invert:hover {
+    background-color: #000!important;
+    color: #fff!important
+}
+
+.blue_button {
+    background-color: #415464!important;
+    color: #fff!important;
+    -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 2px 10px rgba(0, 0, 0, .5);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .5)
+}
+
+.blue_button_border {
+    background-color: #415464!important;
+    border: 1px solid #fff;
+    color: #fff!important;
+    -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 2px 10px rgba(0, 0, 0, .5);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .5)
+}
+
+.red_button {
+    border-radius: 50px;
+    background-color: #9d152d!important;
+    color: #fff!important;
+    -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 2px 10px rgba(0, 0, 0, .5);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .5)
+}
+
+.website_link {
+	color: #000;
+	text-decoration: underline;
+}
+.website_link:hover {
+	color: #000 !important;
+	text-decoration: underline !important;
+}
+
+.red_link {
+    color: #9d152d;
+}
+
+.red_link:hover {
+    color: #9d152d!important;
+}
+
+/* Heading and Paragraph Styles */
+.sourcesans-heading {
+    font-family: objektiv-mk1;
+    font-display: swap;
+    font-size: 35px;
+    line-height: 45px
+}
+.sourcesans-subtitle {
+    font-family: objektiv-mk1;
+    font-display: swap;
+    font-size: 21px
+}
+.sourcesans-subheading {
+    font-family: objektiv-mk1;
+    font-display: swap;
+    margin-bottom: 20px;
+    font-size: 35px
+}
+.sourcesans-bold-heading {
+    font-family: objektiv-mk1;
+    font-weight: 700;
+    font-display: swap;
+    font-size: 35px;
+    line-height: 45px
+}
+.sourcesans-bold-subtitle {
+    font-family: objektiv-mk1;
+    font-weight: 700;
+    font-display: swap;
+    font-size: 21px
+}
+.objektiv-mk1-heading {
+    font-family: objektiv-mk1;
+    font-weight: 700;
+    font-display: swap;
+    font-size: 38px;
+    margin-bottom: 20px;
+    line-height: 45px
+}
+.objektiv-mk1-subtitle {
+    font-family: objektiv-mk1;
+    font-weight: 700;
+    font-display: swap;
+    margin-bottom: 20px;
+    font-size: 25px
+}
+.sourcesans-std-para {
+    font-size: 17px;
+}
